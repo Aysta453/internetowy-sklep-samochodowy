@@ -1,5 +1,7 @@
 # Projekt i wykonanie strony internetowej salonu samochodowego z użyciem bazy danych Oracle.
-## Wstęp 
+## <p align="center">
+    Wstęp
+</p>
 
 Strona przedstawia ogólny wygląd, salonu samochodowego „Aysta”.
 Jest w nim zawarte ogólny opis firmy, gdzie się znajduje, przedstawienie nam swoich usług, przegląd informacji na temat samochodów, przegląd strony sklepu internetowego, produktów oraz zakup.
