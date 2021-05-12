@@ -1,89 +1,115 @@
 # Projekt i wykonanie strony internetowej salonu samochodowego z użyciem bazy danych Oracle.
  <p align="center">
-    ##Wstęp
+    ## Wstęp
 </p>
-
+ <p align="center">
 Strona przedstawia ogólny wygląd, salonu samochodowego „Aysta”.
 Jest w nim zawarte ogólny opis firmy, gdzie się znajduje, przedstawienie nam swoich usług, przegląd informacji na temat samochodów, przegląd strony sklepu internetowego, produktów oraz zakup.
-
+</p>
  
 
 
  
-
-Opis działania
+ <p align="center">
+    ## Opis działania
+</p>
+ <p align="center">
 Strona główna to opis firmy, formularz kontaktowy który umożliwia nam kontakt mailowy z administracją strony. Kopia wiadomości która została wysłana, zostanie nam doręczona drogą mailową.
- 
+ </p>
+  <p align="center">
 Ze strony głównej możemy się dostać na kilka różnych podstron. Każda z nich przenosi w konkretne miejsce.
+  </p>
  
+  <p align="center">
 Marki to jest menu, które umożliwia nam przejście w konkretny rodzaj samochodów a konkretnie ich pochodzenie.
+    </p>
  
+  <p align="center">
 Kolejna z nich to rejestracja użytkownika, umożliwia założyć odpowiednie konto do korzystania do zakupu z sklepu internetowego. Są tu bardzo ważne dane, które zanim zostaną zapisane w bazie danych zostają sprawdzone czy nie są puste bądź czy mają odpowiednią długość. Niektóre z nich służą potem do logowania się przy potwierdzeniu zakupu.
+  </p>
  
  
-
+ <p align="center">
 Sama strona główna przedstawia opis czym się zajmuje ta firma jak i gdzie można ją znaleźć bądź niżej skontaktować się drogą mailową za pomocą formularza kontaktowego.
+  </p>
  
-
+ <p align="center">
  Po założenia konta możemy przystąpić do przeglądu sklepi. Zostaje przedstawione kilka wariantów produktów, którymi może jesteśmy zainteresowani. Przedstawia obraz, markę model oraz cenę danego samochodu. Po kliknięciu na dany samochód. zostaniemy przekierowani na strona danego produktu.
-
-
+ </p>
+ 
+ <p align="center">
 Na górze każdej strony zostały przyczepione, przejścia by nas zaprowadziły na konkretny element. który nas interesuje, bądź w sposób normalny przesuwać kółkiem myszki, suwakiem.
-
+ </p>
  
-
+ 
+ <p align="center">
 Klient ma jeszcze możliwość powrotu, zmienienia danego wariantu bądź potwierdzenia zakupu. Zostanie wysłany odpowiedni e-mail na pocztę klienta potwierdzający zakup. Wtedy dany produkt, który został już sprzedany w serwisie, zostanie wyłączony z obiegu do ponownego zakupu.
+  </p>
+ 
  
 
-
+ <p align="center">
 Kwota oraz Typ transakcji to umożliwia nam jaką zaliczkę zamiar wpłacić i w jaki sposób mamy zamiar zapłacić.
+  </p>
  
+  <p align="center">
 A jeśli nie jesteśmy zainteresowani możemy zawsze wrócić do sklepu, przyciskiem poniżej.  
+    </p>
  
+  <p align="center">
 Na kolejnej stronię zostaną wyświetlone wszystkie dane które zostały przez nas wybrane oraz pełna konfiguracja, nasze dane osobowe. 
 Oczywiście możemy wrócić do sklepu, bądź produktu żeby cos zmienić ale gdy jesteśmy pewni możemy już potwierdzić zakup.
+  </p>
  
-
+ <p align="center">
 Została nam ukazana strona końcowa, gdzie jest potwierdzenie prawidłowego zakupienia samochodu. Po naciśnięciu przycisku, dzięki, któremu możemy wrócić do strony głównej mail z potwierdzeniem zakupu samochodu o danej konfiguracji.  Przy okazji została wygenerowana nasza tablica rejestracyjna na podstawie miejscowości, w której jesteśmy zameldowani, która podaliśmy przy rejestracji gdzie jej pierwsze litery oraz 5 losowych liczb tworzy nasza tablice, oczywiście jeśli akurat pierwsza wygenerowana tablica jest zajęta, system ponawia próbę utworzenia tablicy rejestracyjnej.
+  </p>
  
-
+ 
+ <p align="center">
 Została nam jedna zakładka Admin, gdzie możemy a raczej admin sprawdzić i ewentualnie dodać jakieś dane. 
+  </p>
  
+  <p align="center">
 Aby się zalogować należy wpisać prawidłowe dane do formularza logowania.
-
+    </p>
+ 
+ <p align="center">
 Ukazuje się menu gdzie możemy wyświetlić wszystkie odpowiednie tabele które akurat znajdują się w bazie danych. 
+  </p>
  
 
-
+ <p align="center">
 
  po naciśnięciu nagłówka odpowiedniego dla nas zostaną wyświetlone wszystkie dane w danej tablicy, niektóre dane z tablic podłączonych. w przypadku modeli jest to nazwa marki z tablicy marek.
+  </p>
  
- 
+  <p align="center">
 W tabeli Historii oraz Rejestracje można zauważyć wszystkie rejestracje aktualnie które były przepisane do samochodów bądź które są przypisane.
- 
- 
-
-
+ </p>
  
 
 
  
- 
- 
 
+
+ 
+ 
+ 
+ <p align="center">
 Serwis zarazem wyświetla czy danemu użytkownika należy się sfinansowanie bądź zwrócenie kosztów za korzystanie z naszego serwisu.
 
-
+ <p align="center">
 Niektóre tablice umożliwia nam tworzenie takich danych jak kolory, silniki, modele, dzięki którym możemy dodać realny samochód, który zamierzamy sprzedać, bądź ktoś nam to zgłasza. Oczywiście nie można dodać tych samych danych w tablicach. Dany pojazd jest jeden więc jeśli dana osoba go zakupi potem nie będzie możliwości sprzedania go powtórnie.
 
-    Technologie
+ Technologie
 
-Technologieę które zostały zastosowane w projekcie:
+Technologie które zostały zastosowane w projekcie:
 
-•	Bootstrap/HTML/CSS
-•	-Javascript/JQuery
-•	-PHP polaczony za pomocą OCI8
-•	-PHPMailer
+*	-Bootstrap/HTML/CSS
+*	-Javascript/JQuery
+*	-PHP polaczony za pomocą OCI8
+*	-PHPMailer
 
 
 
