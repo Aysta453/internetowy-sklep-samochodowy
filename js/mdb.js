@@ -3736,7 +3736,7 @@ jQuery(function ($) {
                             P.component.set( thingItem, thingValue, options )
                         }
   
-                        // Then, check to update the element value and broadcast a change.
+                        // Then, check to updates the element value and broadcast a change.
                         if ( ( thingItem == 'select' || thingItem == 'clear' ) && SETTINGS.updateInput ) {
                             $ELEMENT.
                                 val( thingItem == 'clear' ? '' : P.get( thingItem, SETTINGS.format ) ).
@@ -3923,7 +3923,7 @@ jQuery(function ($) {
             // Add the “input” class name.
             addClass(CLASSES.input).
   
-            // If there’s a `data-value`, update the value of the element.
+            // If there’s a `data-value`, updates the value of the element.
             val( $ELEMENT.data('value') ?
                 P.get('select', SETTINGS.format) :
                 ELEMENT.value
@@ -4052,7 +4052,7 @@ jQuery(function ($) {
                     P.$holder.eq(0).focus()
                 }
   
-                // If something is superficially changed, update the `highlight` based on the `nav`.
+                // If something is superficially changed, updates the `highlight` based on the `nav`.
                 if ( !targetDisabled && targetData.nav ) {
                     P.set( 'highlight', P.component.item.highlight, { nav: targetData.nav } )
                 }
@@ -4119,7 +4119,7 @@ jQuery(function ($) {
   
         $ELEMENT.
   
-            // If the value changes, update the hidden input with the correct format.
+            // If the value changes, updates the hidden input with the correct format.
             on('change.' + STATE.id, function() {
                 P._hidden.value = ELEMENT.value ?
                     P.get('select', SETTINGS.formatSubmit) :
@@ -4740,7 +4740,7 @@ jQuery(function ($) {
     value = value === undefined ? type : value
 
 
-    // If it’s infinity, update the value.
+    // If it’s infinity, updates the value.
     if (value == -Infinity || value == Infinity) {
       isInfiniteValue = value
     }
@@ -6339,7 +6339,7 @@ $.extend($.fn.pickadate.defaults, {
   };
 
     // The input can be changed by the user
-    // So before we can use this.hours/this.minutes we must update it
+    // So before we can use this.hours/this.minutes we must updates it
 ClockPicker.prototype.parseInputValue = function(){
   var value = this.input.prop('value') || this.options['default'] || '';
 
