@@ -4,7 +4,8 @@
 Strona przedstawia ogólny wygląd, salonu samochodowego „Aysta”.
 Jest w nim zawarte ogólny opis firmy, gdzie się znajduje, przedstawienie nam swoich usług, przegląd informacji na temat samochodów, przegląd strony sklepu internetowego, produktów oraz zakup.
 </p>
-<p align="center">![Obraz1](https://user-images.githubusercontent.com/58811103/118000443-1a953200-b346-11eb-9973-c702c31ff618.png) </p>
+<p align="center">![Obraz1](https://user-images.githubusercontent.com/58811103/118001898-70b6a500-b347-11eb-9379-bd17cae8e1b6.png)
+ </p>
 
 
  
